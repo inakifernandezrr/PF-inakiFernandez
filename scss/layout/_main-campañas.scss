@@ -1,0 +1,50 @@
+.container__campañas{
+    margin-top: -60px;
+    margin-bottom: -60px;
+    .container__galeria{ 
+        margin-top: 60px;
+        margin-bottom: 60px;
+        display: grid;
+        width: 100%;
+        grid-template-columns: repeat(4,1fr);
+        grid-template-rows: repeat(4,450px);
+        grid-gap: 15px;
+        img{
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+        }
+        .galeria__imguno{
+            grid-column:1/3 ;
+            grid-row: 1/3;
+        
+        }
+        .galeria__imgdos{
+            grid-column:3/5 ;
+            grid-row: 1/2;
+        
+        }
+        .galeria__imgtres{
+            grid-column:3/5 ;
+            grid-row: 2/3;
+        
+        }
+        .galeria__imgcuatro{
+            grid-column:1/2;
+            grid-row: 3/5;
+        
+        }
+        .galeria__imgcinco{
+            grid-column:2/4 ;
+            grid-row: 3/5;
+        
+        }
+        .galeria__imgseis{
+            grid-column:4/5 ;
+            grid-row: 3/5;
+        
+        }
+    
+    }
+    
+}

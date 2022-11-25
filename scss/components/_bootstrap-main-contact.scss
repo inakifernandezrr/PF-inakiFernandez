@@ -1,0 +1,23 @@
+.container1{
+    height: 400px;
+    background-color: black;
+    margin-top: 150px;
+    margin-bottom: 150px;
+    display: flex;
+    justify-content: space-evenly;
+    form{
+        padding: 25px;
+        label {
+            color:white;
+        }
+        button {
+            color: rgb(255, 255, 255);
+            background-color: $color-secundario;
+            border: $color-secundario;
+        }
+    }
+}
+
+.grid__container{
+    background-color: black;
+}

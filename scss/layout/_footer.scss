@@ -1,0 +1,21 @@
+footer {
+    border-top: solid $color-secundario;
+    height: 250px;
+    background-color: $background-general;
+    .header_footer--conteiner{
+        @include flex (flex, space-evenly, none);
+        .footer__div{
+            margin-top: 80px;
+            display: flex;
+            flex-direction: column;
+            .text_footer{
+                text-align: center;
+                margin: auto;
+                color: white;
+            }
+            .text_footer2{
+                color: black;
+            }
+        }
+    }
+}

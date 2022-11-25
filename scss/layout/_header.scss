@@ -1,0 +1,38 @@
+header{
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: row;
+    background-color: black;
+    border-bottom: $color-secundario solid 2px;
+    nav{ 
+        width: 100%;
+        .container-nav{
+            margin-top: 40px;
+            display: flex;
+            justify-content: space-evenly;
+            align-items: center;
+            li{
+                list-style: none;
+            }
+            a{
+                text-decoration: none;
+                color: white;
+                &:hover{
+                    color: $color-secundario;
+                    font-size: 22px;
+                }
+            }
+        }
+        
+       
+    }
+    
+
+}
+
+
+
+
+
+
+

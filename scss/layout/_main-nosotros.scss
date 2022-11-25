@@ -1,0 +1,7 @@
+.container__nosotros{
+    @include flex (flex, center, center);
+    .elemento__nosotros{
+        margin: 300px 40px;
+        color: white;
+    }
+}

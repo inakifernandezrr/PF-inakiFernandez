@@ -1,0 +1,33 @@
+.container-servicios{
+    @include flex (flex, center, center);
+    margin: 0px 40px;
+    .section-servicios{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 50%;
+        padding: 50px;
+        margin-bottom: 200px;
+        h2{
+            margin-bottom: 30px;
+            margin-top: 30px;
+            color: $color-secundario;
+        
+
+        }
+        p{
+            color: white;
+        }
+        ul{
+            margin-top: 30px;
+            display: flex;
+            flex-direction: column;
+            li{
+                color: $color-secundario;
+                list-style: none;
+            }
+     
+        }
+    }   
+}
+
